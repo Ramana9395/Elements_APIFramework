@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout Code') {
             steps {
-                git branch: 'main',
+                git branch: 'master',
                 url: 'https://github.com/Ramana9395/Elements_APIFramework.git'
             }
         }
@@ -21,21 +21,16 @@ pipeline {
             }
         }
 
-        stage('Generate Reports') {
-            steps {
-                echo 'Cucumber Execution Completed'
-            }
-        }
     }
 
     post {
 
         always {
-            echo 'Pipeline Execution Finished'
+            echo 'Execution Completed'
         }
 
         success {
-            echo 'Build Successfully Completed'
+            echo 'Build Success'
         }
 
         failure {
