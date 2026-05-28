@@ -8,7 +8,7 @@ Scenario Outline: verify if add faculty is being successfully added using AddFac
 #	And verify faculty_Id created maps to "<name>" using "getFacultyId"
 Examples:
    |fname  |lname  |mname  |
-   |First Faculty|lastone|middle faculty changed|
+   |First Faculty|lastone|middle faculty|
 #   |firsttwo|lasttwo|middletwo|
 #  |firstthree|lastthree|middlethree|
 
