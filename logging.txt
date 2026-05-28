@@ -5,7 +5,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI4NzAyYzczYS1mZTQzLTQwNTEtODYzYy0zNGRkY2E4NTJiZDgiLCJ1bmlxdWVfbmFtZSI6InRlc3RlciIsIlN1cGVyVXNlciI6IlkiLCJTU05WaXNpYmlsaXR5IjoiRnVsbCIsIlRlbmFudCI6InFhdGhlc2lzc21saXRlLnRoZXNpc2Nsb3VkLXJkLmNvbSIsIm5iZiI6MTc3OTcxNTIxNiwiZXhwIjoxNzc5NzUxMjE2LCJpYXQiOjE3Nzk3MTUyMTYsImlzcyI6Imh0dHBzOi8vcWFjbG91ZC11c2MtZ2F0ZXdheS50aGVzaXNjbG91ZC1yZC5jb20vIiwiYXVkIjoiaHR0cHM6Ly9xYXRoZXNpc3NtbGl0ZS50aGVzaXNjbG91ZC1yZC5jb20vIn0.T0s75trjPaJdhhMOLtwGHxbDHLH17tPNiEntt5HRPM4
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJmNDk2ZjBiNS1lNmYwLTRhYWEtOTcyZC02MmNkYTdhN2E0MWMiLCJ1bmlxdWVfbmFtZSI6InRlc3RlciIsIlN1cGVyVXNlciI6IlkiLCJTU05WaXNpYmlsaXR5IjoiRnVsbCIsIlRlbmFudCI6InFhdGhlc2lzc21saXRlLnRoZXNpc2Nsb3VkLXJkLmNvbSIsIm5iZiI6MTc3OTk4NzgyMiwiZXhwIjoxNzgwMDIzODIyLCJpYXQiOjE3Nzk5ODc4MjIsImlzcyI6Imh0dHBzOi8vcWFjbG91ZC11c2MtZ2F0ZXdheS50aGVzaXNjbG91ZC1yZC5jb20vIiwiYXVkIjoiaHR0cHM6Ly9xYXRoZXNpc3NtbGl0ZS50aGVzaXNjbG91ZC1yZC5jb20vIn0.nhOgzeg6NzCpNgs48V2Vyip1ia8UvOmO3Do7W9DLmTE
 				Module=CAMS Manager
 				Referer=https://qathesissmlite.thesiscloud-rd.com/
 				Accept=*/*
@@ -16,9 +16,9 @@ Body:
 {
     "facultyDetails": {
         "facultyID": 0,
-        "firstName": "First Faculty branch",
+        "firstName": "First Faculty",
         "lastName": "lastone",
-        "middleName": "middleone",
+        "middleName": "middle faculty",
         "facultySSN": "123456",
         "departmentID": 0,
         "campusID": 0,
@@ -71,7 +71,7 @@ Body:
 HTTP/1.1 200 OK
 Content-Length: 180
 Content-Type: application/json; charset=utf-8; api-version=1.0
-Date: Mon, 25 May 2026 13:20:18 GMT
+Date: Thu, 28 May 2026 17:03:44 GMT
 Content-Encoding: gzip
 Set-Cookie: ARRAffinity=1a3d0c71253771a48a1cf70b2d7e46387a926a039cf864d01086580fb0568451;Path=/;HttpOnly;Secure;Domain=app-elm-qacloud-usc-manager.azurewebsites.net
 Set-Cookie: ARRAffinitySameSite=1a3d0c71253771a48a1cf70b2d7e46387a926a039cf864d01086580fb0568451;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-elm-qacloud-usc-manager.azurewebsites.net
@@ -85,7 +85,7 @@ X-Powered-By: ASP.NET
 
 {
     "data": {
-        "facultyID": 61224
+        "facultyID": 61287
     },
     "isSuccess": true,
     "statusCode": 200
@@ -97,7 +97,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	facultyID=0
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiI4NzAyYzczYS1mZTQzLTQwNTEtODYzYy0zNGRkY2E4NTJiZDgiLCJ1bmlxdWVfbmFtZSI6InRlc3RlciIsIlN1cGVyVXNlciI6IlkiLCJTU05WaXNpYmlsaXR5IjoiRnVsbCIsIlRlbmFudCI6InFhdGhlc2lzc21saXRlLnRoZXNpc2Nsb3VkLXJkLmNvbSIsIm5iZiI6MTc3OTcxNTIxNiwiZXhwIjoxNzc5NzUxMjE2LCJpYXQiOjE3Nzk3MTUyMTYsImlzcyI6Imh0dHBzOi8vcWFjbG91ZC11c2MtZ2F0ZXdheS50aGVzaXNjbG91ZC1yZC5jb20vIiwiYXVkIjoiaHR0cHM6Ly9xYXRoZXNpc3NtbGl0ZS50aGVzaXNjbG91ZC1yZC5jb20vIn0.T0s75trjPaJdhhMOLtwGHxbDHLH17tPNiEntt5HRPM4
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJmNDk2ZjBiNS1lNmYwLTRhYWEtOTcyZC02MmNkYTdhN2E0MWMiLCJ1bmlxdWVfbmFtZSI6InRlc3RlciIsIlN1cGVyVXNlciI6IlkiLCJTU05WaXNpYmlsaXR5IjoiRnVsbCIsIlRlbmFudCI6InFhdGhlc2lzc21saXRlLnRoZXNpc2Nsb3VkLXJkLmNvbSIsIm5iZiI6MTc3OTk4NzgyMiwiZXhwIjoxNzgwMDIzODIyLCJpYXQiOjE3Nzk5ODc4MjIsImlzcyI6Imh0dHBzOi8vcWFjbG91ZC11c2MtZ2F0ZXdheS50aGVzaXNjbG91ZC1yZC5jb20vIiwiYXVkIjoiaHR0cHM6Ly9xYXRoZXNpc3NtbGl0ZS50aGVzaXNjbG91ZC1yZC5jb20vIn0.nhOgzeg6NzCpNgs48V2Vyip1ia8UvOmO3Do7W9DLmTE
 				Module=CAMS Manager
 				Referer=https://qathesissmlite.thesiscloud-rd.com/
 				Accept=*/*
@@ -108,7 +108,7 @@ Body:			<none>
 HTTP/1.1 200 OK
 Content-Length: 215
 Content-Type: application/json; charset=utf-8; api-version=1.0
-Date: Mon, 25 May 2026 13:20:20 GMT
+Date: Thu, 28 May 2026 17:03:47 GMT
 Content-Encoding: gzip
 Set-Cookie: ARRAffinity=1a3d0c71253771a48a1cf70b2d7e46387a926a039cf864d01086580fb0568451;Path=/;HttpOnly;Secure;Domain=app-elm-qacloud-usc-manager.azurewebsites.net
 Set-Cookie: ARRAffinitySameSite=1a3d0c71253771a48a1cf70b2d7e46387a926a039cf864d01086580fb0568451;Path=/;HttpOnly;SameSite=None;Secure;Domain=app-elm-qacloud-usc-manager.azurewebsites.net

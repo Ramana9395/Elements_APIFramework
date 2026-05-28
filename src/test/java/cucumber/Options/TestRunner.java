@@ -9,22 +9,24 @@ import io.cucumber.junit.CucumberOptions;
 
 @CucumberOptions(
         
-        features = "src/test/java/features",
+        features = "src/test/java/features",  plugin = "json:target/jsonReports/cucumber-report.json",
+        glue = { "stepDefinitions","utilities"},
+        monochrome = true, publish = true
 
-        glue = {
-                "stepDefinitions",
-                "utilities"
-        },
-
-        plugin = {
+        
+        
+        /*{
 
                 "html:target/cucumber-report.html",
 
                 "json:target/cucumber.json",
 
-                "junit:target/cucumber.xml"
+                "junit:target/cucumber.xml" 
 
-        }
+        },*/
+
+        
+       
 )
 
 public class TestRunner {

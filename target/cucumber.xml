@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="6.17" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-25T13:20:15.204918400Z">
-<testcase classname="Validating Faculty API's" name="verify if add faculty is being successfully added using AddFacultyAPI - #1.1" time="3.991">
+<testsuite name="Cucumber" time="11.527" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-05-28T16:46:48.718515700Z">
+<testcase classname="Validating Faculty API's" name="verify if add faculty is being successfully added using AddFacultyAPI - #1.1" time="6.024">
 <system-out><![CDATA[
-Given Add Faculty Payload with "First Faculty branch" "lastone" "middleone".passed
+Given Add Faculty Payload with "First Faculty" "lastone" "middle faculty"...passed
 When user calls "AddFacultyAPI" with "POST" http request....................passed
 Then the API call is success with status code 200...........................passed
 ]]></system-out>
 </testcase>
-<testcase classname="Validating Faculty API's" name="Verify Delete Faculty functionality" time="2.028">
+<testcase classname="Validating Faculty API's" name="Verify Delete Faculty functionality" time="5.277">
 <system-out><![CDATA[
 Given verify delete the created faculty.....................................passed
 When user calls "deleteFacultyAPI" with "DELETE" http request...............passed
